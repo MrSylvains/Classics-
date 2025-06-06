@@ -1,0 +1,56 @@
+I plan to build a Music Playlist Manager using Python. This project will serve as a digital tool to store and manage a personal music collection, allowing users to organize songs by title, artist, and duration. It will include functionality to add new songs, update song details, and print the entire playlist. This project will help me practice working with data structures and user input while creating a functional and organized system for music enthusiasts.
+Steps:Create a dictionary called playlist that stores multiple songs, each as a dictionary with:
+
+title
+
+artist
+
+duration (in minutes)
+
+Print the initial playlist.
+
+Update the duration of one of the songs.
+
+Print the playlist before and after the update.
+
+Add a new song to the playlist.
+
+Print the updated playlist.
+
+# Step 1: Create the initial playlist as a dictionary of dictionaries
+playlist = {}
+
+# Step 2: Add initial songs to the playlist
+playlist['Song1'] = {}
+playlist['Song1']['title'] = 'Shape of You'
+playlist['Song1']['artist'] = 'Ed Sheeran'
+playlist['Song1']['duration'] = 4.24
+
+playlist['Song2'] = {}
+playlist['Song2']['title'] = 'Bohemian Rhapsody'
+playlist['Song2']['artist'] = 'Queen'
+playlist['Song2']['duration'] = 5.55
+
+# Step 3: Print the initial playlist
+print("Initial Playlist:")
+print(playlist)
+
+# Step 4: Modify the duration of one of the songs
+print("\nUpdating the duration of 'Shape of You' to 4.30 minutes...")
+playlist['Song1']['duration'] = 4.30
+
+# Step 5: Print the playlist after the update
+print("\nPlaylist after updating duration:")
+print(playlist)
+
+# Step 6: Add a new song to the playlist
+playlist['Song3'] = {}
+playlist['Song3']['title'] = 'Stairway to Heaven'
+playlist['Song3']['artist'] = 'Led Zeppelin'
+playlist['Song3']['duration'] = 8.02
+
+# Step 7: Print the updated playlist
+print("\nUpdated Playlist with new song added:")
+print(playlist)
+
+
