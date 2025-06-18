@@ -1,0 +1,21 @@
+Project Goal:
+To design a basic off-grid monitoring system that helps track and manage essential resources for off-grid living. The system will monitor:
+
+ Solar battery levels
+
+Water tank capacity
+
+Environmental conditions (temperature, humidity)
+
+Functionality Preview:
+
+Use Python classes to represent key components (Battery, WaterTank, Environment).
+
+Implement functions to update and display the status of each system.
+
+Store and manage data using dictionaries or simple file-based logs.
+
+Future-ready design for potential integration with sensors or dashboards.
+
+Why this project?
+As sustainable living becomes more common, it's important to have tools that allow people to monitor their off-grid setups efficiently. This project builds foundational skills in object-oriented programming and data handling while offering real-world utility.
